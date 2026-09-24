@@ -1,6 +1,6 @@
 # VideoExpress Stickman Audio-Synced Story Agent
 
-A team-owned system prompt for creating colorful 2D stickman stories from short audio/video pairs: one narration line, one separate 3–5 second CloneVoice audio clip, and one matching silent VideoExpress scene. Characters stay consistent, and each video starts and ends with its paired audio.
+A team-owned system prompt for creating colorful stickman stories from short audio/video pairs: one narration line, one separate 3–5 second CloneVoice audio clip, and one matching silent VideoExpress scene. Characters stay consistent, and each video starts and ends with its paired audio. The default look is 2D; a requested 3D version uses a new 3D master and 3D scene images while keeping the audio-first timing workflow.
 
 For a one-minute story, plan approximately 15 pairs averaging 4 seconds each (12–20 pairs depending on actual audio durations). Measure each generated audio clip before making its video. If generation duration controls cannot match it exactly, generate a covering video and trim only the excess video tail. Assemble the pairs consecutively and verify every boundary.
 
@@ -22,7 +22,7 @@ Workflow preferences live in `SYSTEM_PROMPT.md` so they travel with the prompt a
 
 ## Contents
 
-For cinematic action and comedy, prompts now specify one decisive action, one motivated camera move, and a visible consequence per audio beat. The experimental [clumsy diamond heist](examples/clumsy-diamond-heist.md) targets 30–40 seconds in 16:9 while retaining the same audio-first synchronization workflow. The active VideoExpress model is used without changing providers.
+For cinematic action and comedy, prompts specify one decisive action, one motivated camera move, and a visible consequence per audio beat. The experimental [clumsy diamond heist](examples/clumsy-diamond-heist.md) targets 30–40 seconds in 16:9 while retaining the same audio-first synchronization workflow. A 3D remake can reuse accepted narration while generating a separate 3D master and eight new shots. The active VideoExpress model is used without changing providers.
 
 - `SYSTEM_PROMPT.md` — the complete production-agent prompt
 - `examples/example-request.md` — a paste-ready sample request

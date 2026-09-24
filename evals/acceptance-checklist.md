@@ -22,8 +22,9 @@
 - [ ] Total measured audio duration was checked against the requested runtime when supplied; a one-minute plan used approximately 15 pairs, adjusted to actual durations.
 - [ ] The VideoExpress project used the requested aspect ratio.
 - [ ] Every accepted CloneVoice clip was imported and placed once in scene order on one narration track, beginning at 00:00, with no gaps, overlaps, or superseded candidates.
-- [ ] Every generated image used Image Type 2D with image-prompt enhancement off.
+- [ ] Every generated image used the selected Image Type (2D by default; 3D for a requested 3D run) with image-prompt enhancement off.
 - [ ] The saved master stickman was loaded through Consistent Character.
+- [ ] A requested 3D version used its own full-body 3D master, with clearly separated arms, hands, legs, and shoes; 2D references were not mixed into its scenes.
 - [ ] Both candidate images were inspected before every scene selection.
 - [ ] Selected images preserved correct anatomy, character identity, prop counts, and continuity.
 - [ ] Every clip used Video Only, Advanced Mode, video-prompt enhancement off, and Manual Video Length.
