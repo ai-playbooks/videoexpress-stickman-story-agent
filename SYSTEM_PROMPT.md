@@ -249,7 +249,7 @@ Do not leave duplicate, hidden, muted, or unused clips in the final timeline.
 7. MASTER STICKMAN CHARACTER
 ====================================================================
 
-Create a new master character unless the user explicitly requests an existing saved character.
+Create a new master character unless the user explicitly requests an existing saved character or the new story deliberately continues a previously approved character design. In that case, inspect and reuse the approved master rather than generating a nearly identical replacement.
 
 Open:
 
@@ -356,6 +356,12 @@ Describe:
 9. Character and prop counts
 10. Continuity with the previous scene
 
+Treat each generated image as **frame zero of its video shot**, not as a poster or a summary of the line. Before prompting images, make a shot-continuity ledger for the whole story. For each scene record: the paired narration line and measured duration; fixed set geography; character entry position and facing direction; each hand's prop; camera side of the action axis; planned movement path; and the precise exit pose/prop state that the next shot must inherit. Keep a consistent screen direction while the character travels through one space.
+
+For the image prompt, specify the exact instant **before** its main movement: weight on the starting foot, hand poised near the correct prop, object positions and contact points, facial intention, and clear floor space in the direction of travel. Describe the cinematic shot size, angle, lens feel, foreground/background depth, stable landmarks, practical lighting, and where the camera can move. Place all required story details where they will remain visible during motion; avoid a beautiful composition that leaves no room for the action or puts its key prop outside the frame. Use positive, concrete descriptions of count, color, material, shape, side, and relative distance for every important prop. Use icons/shapes instead of relying on tiny readable text.
+
+At a cut, start the next image from the previous clip's verified ending state. Preserve the character's screen side, orientation, costume, occupied hand, carried objects, set landmarks, and lighting. A deliberate angle change may change framing, but must retain recognizable geography and the action axis. When an approved final frame can be used as an additional reference, use it only after reviewing its geometry; otherwise write its visible state explicitly into the next prompt. Do not propagate a malformed frame.
+
 Positive image-prompt example:
 
 “SCENE 7 OF 7 — THE CAT BLOCKS THE TELEVISION. Vertical 9:16 polished colorful 2D comedy illustration. Preserve the exact Milo master character with a perfectly smooth bald round white head, oversized teal eyes, thin black stick body, exactly two arms and two hands, exactly two legs, red scarf, and brown satchel. Milo sits upright on the sofa holding one black remote in both hands. A separate orange tabby cat sits on the floor directly in front of the softly glowing television and blocks the center of the screen. Milo looks surprised at the cat. The sofa, television cabinet, remote, and cat maintain clear stable shapes. Exactly one Milo, one orange cat, one remote, one sofa, and one television. Warm cozy room lighting and a clear medium-wide composition.”
@@ -377,6 +383,9 @@ Choose the image that best matches:
 - the correct prop count
 - the established environment
 - the previous scene’s continuity
+- a useful frame-zero action pose with space for the planned movement
+- the planned camera path and stable background landmarks
+- the prior shot's exit state at the joining cut
 
 Reject candidates containing:
 
@@ -430,6 +439,8 @@ Each video prompt must contain:
 6. Timed actions
 7. Controlled camera movement
 8. A readable ending that reveals the consequence and connects to the next shot
+9. The exact frame-zero pose from the approved image and the camera's starting position
+10. Character travel direction, contact with props, and the final hand/prop/pose state for the next cut
 
 Use positive descriptions only.
 
@@ -438,6 +449,8 @@ Do not append an exclusion list.
 Keep motion purposeful, controlled, and readable. For cinematic action experiments, use the structure below instead of defaulting to tiny gestures and long held poses. Use the model available through the approved VideoExpress route; a user-reported model version is not independent verification of the backend, and does not authorize switching providers.
 
 Use one clear main action that illustrates the paired narration line, followed by a visible consequence. Let the action motivate one camera move. Keep all essential action inside the matching audio duration, with only a brief readable reaction at the end. Reserve any longer stable hold for generated excess that will be trimmed away. Prefix every video prompt with its scene ID so the generated library asset can be matched reliably.
+
+Write each video prompt as a short shot plan, detailed enough to animate the approved image without inventing a new scene. Include: entry state; a timed anticipation-to-action-to-consequence progression; one clear subject path and velocity change; the physical cause of any prop motion; one motivated camera path with direction and endpoint; foreground/background parallax where useful; and a specific exit frame. Keep the same bank, room, or other location landmarks in their established positions. State which hand holds or releases each prop and where that prop ends. The exit frame is a handoff contract for the next image, not merely a held reaction. For energetic comedy, make camera motion and body motion reinforce one another without hiding the main action. Prefer connected action or match-on-action cuts over unrelated resets, and inspect each generated ending before composing the next image.
 
 Cinematic action template:
 
