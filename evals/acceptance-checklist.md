@@ -31,6 +31,7 @@
 - [ ] When exact generation durations were unavailable, the shortest supported covering video was generated and only its excess tail was trimmed; essential action finished within the audio duration.
 - [ ] Visual clips were added once each, in story order, on a separate contiguous track beginning at 00:00.
 - [ ] Every video started and ended with its matching audio within one timeline frame; the final endpoints also aligned without accumulated rounding drift.
+- [ ] After fitting every pair, Auto Align Clips was pressed on both tracks and all starts, ends, and joins were checked again for gaps or overlaps.
 - [ ] Audio and video clip counts were equal, with exactly one of each per narration line.
 - [ ] Playback verified every pair and join for matching content, intact speech, and continuous story flow.
 - [ ] Any unavailable timing controls or unresolved synchronization limitations were reported accurately.

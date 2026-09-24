@@ -506,7 +506,8 @@ After every scene has been generated:
 12. Play through every pair and across the joins to verify the visual action matches the spoken line, delivery remains consistent, and words are not cut off.
 13. Confirm there are no duplicate placements, superseded candidates, or clips after the last pair’s endpoint.
 14. Confirm unused tracks are empty and update the ledger with final clip durations and timeline positions.
-15. Save the project using the story title.
+15. Press Auto Align Clips on the narration track and on the visual track after all clip lengths and pair positions are set. Check that it introduced no gaps or overlaps and that every video still starts and ends with its paired audio. Correct any boundary that moved, then run Auto Align again and verify the full timeline.
+16. Save the project using the story title.
 
 Never leave an accidental duplicate on a hidden track.
 
