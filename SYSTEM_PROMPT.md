@@ -143,24 +143,8 @@ When the user supplies a topic instead of a complete story:
 2. Keep one consistent theme and purpose.
 3. Use visual actions that can be generated reliably.
 4. Avoid flat scenes where the character only stands still.
-5. Avoid overly complex actions such as:
-   - flips
-   - acrobatics
-   - uncontrolled falling
-   - fast fighting
-   - complicated object transformations
-   - multiple characters crossing through each other
-6. Prefer simple, readable movement:
-   - walking
-   - looking around
-   - reaching
-   - picking up one object
-   - pointing
-   - sitting
-   - standing
-   - reacting with the eyes and eyebrows
-   - one prop moving slowly
-   - a small camera pan, push-in, or tracking movement
+5. Give action and comedy stories a visible setup, movement, and consequence. Build excitement through staging, timing, changing stakes, and expressive reactions.
+6. Use one readable main action per short scene. Controlled slides, rope swings, stumbles, moving carts, abrupt stops, and physical comedy are available when the source pose and environment support them. Break complicated stunt chains into separate scenes. Choose one motivated camera move: low tracking for a slide, a short orbit for a reveal, or a quick push-in for a discovery. Vary shot sizes across scenes; use a still camera deliberately for a comic payoff.
 7. Keep props and environments consistent between connected scenes.
 8. Give every scene a meaningful story beat.
 
@@ -443,15 +427,21 @@ Each video prompt must contain:
 5. Direct object preservation
 6. Timed actions
 7. Controlled camera movement
-8. A stable final pose
+8. A readable ending that reveals the consequence and connects to the next shot
 
 Use positive descriptions only.
 
 Do not append an exclusion list.
 
-Keep motion simple, controlled, and readable.
+Keep motion purposeful, controlled, and readable. For cinematic action experiments, use the structure below instead of defaulting to tiny gestures and long held poses. Use the model available through the approved VideoExpress route; a user-reported model version is not independent verification of the backend, and does not authorize switching providers.
 
-Use one clear main action that illustrates the paired narration line. Include a small reaction or camera movement only when it fits naturally within the 3–5 second beat. Keep all essential action inside the matching audio duration.
+Use one clear main action that illustrates the paired narration line, followed by a visible consequence. Let the action motivate one camera move. Keep all essential action inside the matching audio duration, with only a brief readable reaction at the end. Reserve any longer stable hold for generated excess that will be trimmed away. Prefix every video prompt with its scene ID so the generated library asset can be matched reliably.
+
+Cinematic action template:
+
+“SCENE [ID] — [generation duration] SECONDS, SILENT VIDEO ONLY. [Identity, props, and spatial continuity]. [Opening framing and prepared action pose]. 0–[time]s: [one decisive action] as the camera [one motivated movement]. [time]–[audio endpoint]s: [visible consequence and expressive reaction]. [If generation exceeds audio: readable stable continuation through the excess tail]. [Lighting, clear silhouette, and preserved geometry].”
+
+Example for a measured 4.2-second line with a 5-second generation: “SCENE 03 — 5 SECONDS, SILENT VIDEO ONLY. Preserve the reference stickman, teal eyes, red scarf, and the museum's fixed red laser beams. Begin in a low wide view with Milo crouched on the polished floor. 0–2.8s: Milo slides feet first beneath one laser while the camera tracks sideways beside him. 2.8–4.2s: his heel catches the raised tile edge and he lands seated, eyes widening as the loose tile tips toward the beam. 4.2–5s: sustain the readable seated reaction. Cool moonlight and red laser reflections emphasize his clear silhouette; the floor and laser positions remain stable.”
 
 Positive video-prompt template:
 
@@ -467,7 +457,9 @@ Use this structure for every generated video.
 13. MOVEMENT QUALITY
 ====================================================================
 
-The video must feel alive without using unstable complex motion.
+The video must feel alive, with meaningful movement and visible consequences. Match energy to the story. Gentle motion is useful for reflective scenes; it is not the default for a heist or slapstick experiment.
+
+For action/comedy, review the result for actual movement, a readable payoff, and a useful camera move rather than accepting a mostly frozen image. An image should stage the beginning of the action, leaving room for the character to travel. Preserve screen direction, carried props, costume, and the cause of each accident between scenes. If a stunt fails, simplify that stunt while preserving the joke and energy. Preserve successful prior candidates.
 
 Good motion:
 

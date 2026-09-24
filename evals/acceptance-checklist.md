@@ -11,6 +11,10 @@
 - [ ] The only required user inputs were a topic/story and an aspect ratio.
 - [ ] Beau Whitaker was used unless the user explicitly requested another voice.
 - [ ] The script used short connected lines, each expressing one clear visual beat.
+- [ ] Action/comedy scenes used a decisive readable action and visible consequence, with varied framing and one motivated camera move when useful.
+- [ ] Source images staged the beginning of each action with room for movement; scene transitions preserved screen direction, costume, props, and causal continuity.
+- [ ] Video prompts began with matching scene IDs; essential action finished within the paired audio, with long holds reserved for trimmable excess.
+- [ ] Action playback was checked for actual motion and comic payoff; defective stunts were simplified without replacing successful candidates.
 - [ ] Every line was generated separately in CloneVoice, reached Completed status, and had a measured duration of 3–5 seconds.
 - [ ] Clips used consistent voice, language, delivery, and pace, with natural joins.
 - [ ] Out-of-range lines were revised and regenerated; accepted clips remained intact without cuts or time-stretching.

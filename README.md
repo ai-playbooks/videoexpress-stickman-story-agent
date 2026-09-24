@@ -22,6 +22,8 @@ Workflow preferences live in `SYSTEM_PROMPT.md` so they travel with the prompt a
 
 ## Contents
 
+For cinematic action and comedy, prompts now specify one decisive action, one motivated camera move, and a visible consequence per audio beat. The experimental [clumsy diamond heist](examples/clumsy-diamond-heist.md) targets 30–40 seconds in 16:9 while retaining the same audio-first synchronization workflow. The active VideoExpress model is used without changing providers.
+
 - `SYSTEM_PROMPT.md` — the complete production-agent prompt
 - `examples/example-request.md` — a paste-ready sample request
 - `evals/acceptance-checklist.md` — the production acceptance checklist
