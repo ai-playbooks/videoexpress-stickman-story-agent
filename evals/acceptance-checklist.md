@@ -9,6 +9,10 @@
 - [ ] Master depicts one full-body character with correct anatomy/costume on a neutral background; its saved asset identity is recorded.
 - [ ] Consistent Character uses that exact master for every scene, including scene 1; selection verified per scene and no scene image substituted as master.
 - [ ] Connected short narration targeted natural 3–5 seconds.
+- [ ] Full action sequence planned before story images, with incoming state, new action, outgoing state and next-scene handoff for every beat.
+- [ ] Each beat advances the action or holds a motivated reaction; no unintended repeated approach/reach or neutral pose reset.
+- [ ] Connected scenes generated sequentially: previous actual accepted endpoint inspected before finalizing the next source image.
+- [ ] Each source frame carries the previous endpoint's position, posture, gaze, hand/prop contact and action stage; framing changes have a story reason.
 - [ ] Images depict actual narrated moment with all required people counted and correctly placed.
 - [ ] Props have explicit ownership, locations and contact points.
 - [ ] Each recurring location has a fixed layout and camera side, repeated in all its image and motion prompts.
@@ -27,5 +31,6 @@
 - [ ] Standalone CloneVoice website, narration downloads and library imports not used.
 - [ ] Actual integrated audio/video association inspected; narration intact and synchronized.
 - [ ] Clips added once, in order from 00:00; full playback and joins reviewed.
+- [ ] Every endpoint-to-start pair checked for action continuity; repeated cycles and pose resets corrected. Auto Align not treated as a visual-continuity fix.
 - [ ] Auto Align pressed after final fitting on relevant tracks and boundaries rechecked.
 - [ ] Complete project saved/verified; export only if requested; previous successful assets preserved.

@@ -50,13 +50,21 @@ Use short connected narration lines, one visual beat per clip, targeting natural
 
 Maintain a scene ledger with ID, narration, required people/props, source-image staging, visual action, selected candidate, voice/audio duration when shown, completed clip duration, final timeline position, and review status. Distinguish replacements and preserve successful assets.
 
+Before generating story images, design the entire video as one ordered action sequence. Write every scene's incoming state, one new action, outgoing state, and the exact handoff to the following scene. Track each participant's position, posture, facing, gaze, hands/paws, held props, contact points, emotional reaction, and camera framing. The planned outgoing state of scene N is the incoming state of scene N+1. Each beat must change something visible or deliberately hold a reaction to the previous action. Do not write a collection of independent illustrations that repeatedly restart the same approach, reach, crouch, or greeting.
+
+Use a continuity table: scene ID | narration | incoming state/source frame | new action | outgoing state | next scene's start | camera/cut reason. Review the whole table before rendering. A similar room and costume do not establish continuous action. Avoid repeating the same action cycle or returning to a neutral pose unless the story explicitly motivates that reset. Vary framing only for a story reason, preserving the action axis and physical state through the cut; do not add arbitrary angles just to make the pictures different.
+
+Plan the full sequence first, then render sequentially for connected action: generate and review scene N, inspect its actual completed endpoint, and only then finalize and generate scene N+1's source image. The actual accepted endpoint takes precedence over a hoped-for endpoint. Record its visible state in the ledger and adapt the next source prompt to it without losing the remaining story. If the endpoint breaks the necessary action, correct that clip before continuing. Do not render all subsequent source images from the original neutral setup and discover their resets only during assembly.
+
 Record the story's master character image name/asset ID once, and record verification of that same reference for each scene. Keep the master identity separate from scene-image candidate IDs.
 
 ## 3. Images must show the actual story moment
 
-Do not mechanically force every image into the earliest setup or distant approach. Depict the meaningful instant described by narration. If someone is already in the middle of the beach, seated with friends, or surrounded by a group, place them there in the source image. Do not start outside the location and hope animation creates missing people or geography.
+The source image is the actual incoming state of this clip, not a generic illustration of the topic or the completed action that this clip is meant to perform. Do not mechanically force every image into the earliest setup or distant approach. Follow the full sequence's current story moment. If someone is already in the middle of the beach, seated with friends, or surrounded by a group, place them there. Do not start outside the location and hope animation creates missing people or geography. If the cat is about to climb into a lap, show it beside the seated person's knees; if it has already climbed there in the previous clip, start with it on the lap and animate only the new reaction.
 
 The image must already communicate the intended scene while supporting continuation of motion. Use a grounded mid-walk pose, hands already supporting the mold, feet already at the waterline, or the helper already beside the person being helped. Reserve movement space. Prefer stable readable poses over tangled or airborne bodies.
+
+For scene 2 onward, compare the proposed source image directly with the previous accepted clip's endpoint. Match dynamic state as well as fixed geography: a kneeling character remains kneeling; a seated character stays seated; an escaped cat stays at its new position; an occupied lap remains occupied. Do not return to the standing/crouching two-shot merely because the references favor it. Character and environment references preserve identity and fixtures, not the same pose, distance, or supporting-animal placement in every image. Use an additional endpoint reference only when the visible workflow supports it without replacing the mandatory character master or violating reference constraints; otherwise inspect the endpoint and describe its state precisely. Do not silently substitute a scene frame for the character master.
 
 Before images, map character costume/proportions, recurring people, screen positions/facing, prop ownership and occupied hands, fixed geography/landmarks, travel direction, camera side of the action axis, lighting progression, and connections between shots. Required people and props must be explicitly counted and placed in the source image. Simplify action/camera rather than omitting necessary participants.
 
@@ -104,11 +112,15 @@ Inspect all candidates. Check anatomy, required people, exact positions, prop ow
 
 Apply an eyeline gate before animating: can the viewer identify whom the protagonist is looking at, and does the body orientation support that relationship? Reject unintended lens-facing stares, a target behind the protagonist's back during interaction, camera props aimed at the viewer instead of the subject, and poses that merely repeat the master reference. Correct perspective and staging in the source image even if the previous animation looked good.
 
+Apply a progression gate as well: does this source frame start where the preceding accepted clip ended, and is the upcoming action new? Reject an image that resets posture, distance, prop ownership, contact, or the stage of the action. Reject repeated starting compositions that force the same reach/approach cycle. A beautiful isolated image is insufficient when it breaks the sequence.
+
 ## 6. Regular visual video prompts
 
 Write a detailed natural shot description that animates the selected image. Include scene ID, actual visible starting state, identity/geography preservation, one principal action with direction/body mechanics/pace, physical cause of prop movement, supporting people's small actions and positions, environmental movement, one motivated camera path, and a clear ending connected to the next shot.
 
 Continue from the meaningful pose shown. Do not reset to an earlier approach, invent missing people, or chain disconnected events. For everyday stories use calm tracking, gentle arcs, modest push-ins, and steady views. Preserve recognizable landmarks and screen direction.
+
+State the incoming pose and the one change to animate explicitly. Do not repeat a completed action in later clips. If the previous clip ends with empty hands extended after a missed catch, the next starts there and follows the loss of balance; it must not start another approach and reach. If the cat has settled on the lap, the next clip begins with that contact and shows the person's trapped reaction. Avoid repeated push-ins that end close but restart wide at every cut; either carry the framing forward or motivate and review a cut that preserves the same physical state.
 
 When maintaining a continuous location, favor fixed views and modest push-ins over arcs. Repeat its fixed landmark positions in every motion prompt and describe the endpoint pose and prop positions needed by the next shot. Keep the camera on the established side of the action axis; a cut alone must not rearrange the set or flip travel direction.
 
@@ -139,6 +151,8 @@ Inspect actual output and timeline behavior rather than assuming audio is embedd
 ## 8. Assembly and completion
 
 Use a clean project in the requested ratio, preserving unrelated work. Place accepted clips once each in story order from 00:00. Keep narration associated with its clip; avoid duplicate playback if the output already contains it. Preserve complete speech. Check joins for continuous narration, visual progression, consistent characters/geography, and gaps.
+
+Review every join as an endpoint-to-start pair before assembly, then in playback. Check that positions, posture, gaze, hand/prop contact, action stage and camera framing carry over. A motivated cut can change shot size; it cannot undo the previous action. Correct repeated actions or pose resets before declaring completion. Auto Align closes timeline gaps; it cannot repair visual continuity or a restarted action.
 
 For separate tracks, verify each pair's start/end at editor precision; trim only surplus visual tail when needed. Do not cut or time-stretch accepted speech. After final fitting, press Auto Align Clips on every relevant populated track, then verify there are no gaps, overlaps, shifted narration, or duplicate playback. Check final audio/video endpoints when separate.
 
