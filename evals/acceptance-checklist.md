@@ -12,6 +12,7 @@
 - [ ] Full action sequence planned before story images, with incoming state, new action, outgoing state and next-scene handoff for every beat.
 - [ ] Each beat advances the action or holds a motivated reaction; no unintended repeated approach/reach or neutral pose reset.
 - [ ] Connected scenes generated sequentially: previous actual accepted endpoint inspected before finalizing the next source image.
+- [ ] Where supported, continuous action reuses the reviewed Save Last Frame image as the next animation source; the character master remains a separate fixed reference.
 - [ ] Each source frame carries the previous endpoint's position, posture, gaze, hand/prop contact and action stage; framing changes have a story reason.
 - [ ] Images depict actual narrated moment with all required people counted and correctly placed.
 - [ ] Props have explicit ownership, locations and contact points.

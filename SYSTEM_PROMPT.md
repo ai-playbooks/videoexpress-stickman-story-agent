@@ -56,6 +56,8 @@ Use a continuity table: scene ID | narration | incoming state/source frame | new
 
 Plan the full sequence first, then render sequentially for connected action: generate and review scene N, inspect its actual completed endpoint, and only then finalize and generate scene N+1's source image. The actual accepted endpoint takes precedence over a hoped-for endpoint. Record its visible state in the ledger and adapt the next source prompt to it without losing the remaining story. If the endpoint breaks the necessary action, correct that clip before continuing. Do not render all subsequent source images from the original neutral setup and discover their resets only during assembly.
 
+For a continuous action in the same location, prefer an exact frame handoff when supported: use the accepted video's Save Last Frame control, give that image a scene/end-state title, then load it through Use from Library as the next clip's source image. Match the project ratio before loading it. Keep the original character master selected as Reference Photo 1; the endpoint is the animation's source image, not a replacement character master. Retain the environment reference when present. Inspect the saved frame before reuse and preserve its pose, contact, framing and geography in the next motion prompt. Generate a new still when the story requires a motivated new-location/shot transition or the endpoint is defective; do not chain an unreviewed defect. No need to regenerate an already correct endpoint merely to create a nominally new image.
+
 Record the story's master character image name/asset ID once, and record verification of that same reference for each scene. Keep the master identity separate from scene-image candidate IDs.
 
 ## 3. Images must show the actual story moment

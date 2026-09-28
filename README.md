@@ -4,6 +4,8 @@ Choose a fresh protagonist name for each new story rather than automatically reu
 
 Design the whole action sequence before scene images: record each incoming pose, new action, outgoing pose and next scene's start. Render connected clips sequentially, using the actual accepted endpoint to finalize the following source image. Do not restart the same approach/reach from similar neutral poses. Review posture, position, gaze, contact and framing at every join; Auto Align fixes timing gaps, not repeated action. See the [continuous cat storyboard](examples/continuous-cat-story.md).
 
+For a continuous same-location action, use Save Last Frame and load that reviewed image as the next clip's source when supported. Keep the dedicated character master as the separate consistent-character reference. This carries the actual pose and camera framing forward without regenerating a similar neutral setup.
+
 The current route creates narration directly inside VideoExpress: **Narration Video → Create Video → CloneVoice → System Voice → voice → create audio → generate video**. Advanced Mode stays off. The motion prompt contains visual instructions only; narration belongs in the TTS dialog. Standalone CloneVoice creation, downloads, and narration-library imports are no longer the default.
 
 Copy [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) into a browser-capable agent, sign into VideoExpress, and supply topic and ratio. Routine production continues through review, Auto Align, and saving. Mandatory tool policies and explicit account-confirmation requests remain applicable.
