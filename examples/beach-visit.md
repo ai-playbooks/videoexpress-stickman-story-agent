@@ -1,29 +1,29 @@
 # A Little Day by the Sea
 
-16:9, polished stylized 3D. Integrated VideoExpress narration: CloneVoice → System Voice → Beau Whitaker. Advanced Mode stays off. Visual prompts contain no voice instructions.
+16:9, polished stylized 3D. Use VideoExpress Narration Video → Create Video → CloneVoice → System Voice → Beau Whitaker → Import Speech → Create Narration Video. Advanced Mode stays off. Visual prompts contain no narration or voice instructions.
 
 ## Narration
 
-1. Milo traded his busy morning for a day by the sea.
-2. He found a quiet spot beneath a bright striped umbrella.
-3. The first cool wave washed all his worries away.
-4. Then a tiny shell caught his eye in the sparkling sand.
-5. Nearby, a little builder needed help with a sandy tower.
-6. Together, they gave their castle one magnificent final turret.
-7. As the tide crept closer, they carried their treasures uphill.
-8. Milo left with sandy shoes, a little shell, and a lighter heart.
+1. After a busy morning, Milo reached the beach, ready for a peaceful day beside the sparkling sea.
+2. Beneath a bright striped umbrella, he set down his bag and finally took a slow, peaceful breath.
+3. When the first cool wave curled around his feet, Milo felt his busy morning drift far away.
+4. A beautiful spiral shell waited in the wet sand, turning an ordinary wave into a small discovery.
+5. Nearby, a little builder needed help with a sandy tower, and Milo was happy to lend a hand.
+6. With a little patience and a few careful pats, their sandy castle finally stood tall and proud.
+7. As the afternoon turned golden, three new friends sat together, watching the sea shimmer beyond their castle.
+8. Milo headed home with sandy sandals, a warm goodbye, and a heart that felt lighter than before.
 
 ## Continuity and staging
 
-Milo has a smooth white spherical head, teal eyes, compact black rounded puppet limbs, turquoise shirt, coral-red shorts, yellow sandals, and one yellow canvas bag. Ocean stays to screen right and dunes/umbrella to screen left. Supporting child has a purple sunhat and orange shirt; parent wears a blue shirt and beige shorts. Use layered coastal depth, tactile sand/wood/fabric, warm sunlight and cool sky fill. Both supporting people must be visible and individually placed in scenes 5–7.
+Milo: white spherical head, teal eyes, black rounded puppet limbs, turquoise shirt, coral-red shorts, yellow sandals, one yellow bag. Ocean stays right and dunes/umbrella left. Child wears purple sunhat/orange shirt; parent wears blue shirt/beige shorts. All required people must be explicitly counted and visible. Use tactile materials, layered coastal depth, contact shadows, warm sunlight and cool sky fill.
 
-1. Already halfway down boardwalk, not outside beach; bag in left hand. Continue two relaxed steps.
-2. Already standing beside umbrella; bag placed on mat at its pole. Settle into the quiet spot.
-3. Already ankle-deep at waterline; bag remains dry at umbrella. Wave curls around feet.
-4. Already crouched beside shell; right hand reaches gently to lift it.
-5. Already kneeling beside child and incomplete castle; parent behind to landward side. Examine leaning turret together.
-6. Both already supporting inverted bucket above castle; parent watches behind. Lift bucket together to reveal final turret.
-7. Already carrying mat uphill with child; castle remains by waterline, bag on Milo's left shoulder and shell secured. Parent walks alongside carrying bucket.
-8. Already at boardwalk at golden sunset, holding shell in right palm and bag in left hand. Look back and wave to child and parent beside umbrella.
+1. Already halfway down boardwalk, bag in left hand; continue two steps.
+2. Already beneath umbrella on mat; set bag down from actual held pose.
+3. Already ankle-deep, open empty hands, bag dry under umbrella; wave around sandals.
+4. Already crouching beside ivory spiral shell; inspect/touch its rim and leave it grounded.
+5. Already kneeling to castle left, child right, parent behind; offer help.
+6. Same castle and positions, upright blue bucket and red shovel grounded; gently pat front wall and smile.
+7. Already seated together on mat at golden hour; castle near shore, bag beside Milo, all three distinct.
+8. Already waving at boardwalk, bag left hand; friends beside umbrella; take two steps toward home.
 
-Generated assets and measurements belong in the private production ledger; do not publish account data or session information in this example.
+Adapt motion to the actual approved source image rather than pretending a prop is in a different state. Reject duplicates and missing participants. Keep generated IDs, private account details and measured production state in the private run ledger, not this public example.
