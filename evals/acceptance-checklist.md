@@ -13,6 +13,9 @@
 - [ ] Each recurring location has a fixed layout and camera side, repeated in all its image and motion prompts.
 - [ ] Where supported, the same standalone environment reference is selected as Reference Photo 2; protagonist master stays in Reference Photo 1.
 - [ ] Adjacent images and clip endpoints reviewed for mirrored layouts, swapped fixtures and unexplained prop/landmark movement; defective scenes corrected.
+- [ ] Interaction camera chosen before environment layout: participants face each other at readable depth, with clear torso/head directions and meeting eyelines.
+- [ ] Protagonist looks at the intended participant or prop, not the lens; photo camera points toward its subject. References do not force neutral front-facing poses.
+- [ ] Wrong perspective, target-behind-back staging and unintended lens stares rejected before animation; completed clips retain gaze tracking.
 - [ ] 3D depth: layered spatial planes, materials, coherent illumination, contact shadows and haze.
 - [ ] All candidates reviewed for anatomy, staging, people, continuity and movement room.
 - [ ] Image enhancement off; video enhancement off when available without Advanced Mode.

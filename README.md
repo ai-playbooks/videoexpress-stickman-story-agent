@@ -10,4 +10,6 @@ Every new story first generates a dedicated standalone stickman master character
 
 Recurring locations also have a fixed layout: exact landmark positions, neighboring objects, distances and camera side repeat in every prompt. Use a separate environment reference as Reference Photo 2 when supported, while keeping the character master in Reference Photo 1. Reject swapped or mirrored sets and compare each clip endpoint with the next image before assembly.
 
+Choose the interaction perspective before locking the set. Participants should face and look toward each other in side-on or three-quarter views; the character master preserves identity, not a front-facing pose. Reject source images that put the interaction target behind the protagonist or make the protagonist stare into the lens. Maintain those eyelines in the animation.
+
 See [acceptance checklist](evals/acceptance-checklist.md) and [beach example](examples/beach-visit.md). Older heist examples describe historical experiments and do not override the current prompt. Never commit credentials or private session data. Export only when requested.

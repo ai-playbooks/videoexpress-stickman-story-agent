@@ -58,6 +58,10 @@ The image must already communicate the intended scene while supporting continuat
 
 Before images, map character costume/proportions, recurring people, screen positions/facing, prop ownership and occupied hands, fixed geography/landmarks, travel direction, camera side of the action axis, lighting progression, and connections between shots. Required people and props must be explicitly counted and placed in the source image. Simplify action/camera rather than omitting necessary participants.
 
+Stage the interaction before choosing a scenic composition. State the protagonist's torso direction, head direction, exact gaze target, the target's facing and gaze, their distance, and the camera's relation to their interaction axis. For encounters, favor a side-on or three-quarter two-shot that shows both participants facing each other. Keep both at readable interacting depth rather than placing the protagonist front-facing in the foreground with the other participant behind their back. A visible face is not a reason to make the character look into the lens. Direct-to-camera looks require a specific story beat; they are not the default for narrated scenes.
+
+For a zoo encounter, establish Milo on screen LEFT on the visitor side of the barrier, body and face turned RIGHT toward the giraffe. Place the giraffe on screen RIGHT inside its enclosure, facing LEFT toward Milo. View them from the side of their interaction axis so the barrier separates them in space and their silhouettes do not overlap. Milo's eyes track the giraffe's head; when it lowers its neck, his gaze lowers with it. For a photo, point the camera lens toward the giraffe and keep Milo looking at the viewfinder or animal. Specify profile or rear three-quarter Milo when that better communicates the action. Design the environment reference around this interaction camera before locking its landmarks.
+
 For every recurring location, write a fixed set layout before rendering: name each landmark/fixture, assign its world position, screen side from the chosen camera, relative distance, orientation, and neighboring objects. Repeat this exact layout in every image prompt for that location. A stove, counter, window, bench, sign, enclosure or doorway must not switch sides between adjacent shots. Choose one camera side and axis; use restrained push-ins or tracking from that same side. Tighter crops may hide a landmark, but never relocate it. A genuine move to a new place requires an explicit transition and its own fixed layout.
 
 Generate and review a standalone environment reference when the visible workflow supports an additional reference. Keep the protagonist master in Reference Photo 1 and the same approved location reference in Reference Photo 2 for every scene at that location. The location reference shows the set without the protagonist, so it does not compete with the character master. Record both asset identities and a simple layout diagram in the ledger. If an environment reference is unavailable, retain the exact repeated layout text and compare every candidate against the location's first accepted image. Reference selection does not replace visual review.
@@ -80,6 +84,8 @@ Every image prompt specifies:
 9. Visible action space and key story details.
 10. Continuity with adjacent shots.
 
+Put the interaction pose, facing and eyeline near the beginning of the prompt. Character references supply identity, anatomy, costume and materials, not a compulsory front-facing pose or gaze. Environment references supply geometry, not an excuse to retain a camera angle that hides the interaction. If references overpower the requested pose, simplify conflicting wording and regenerate; do not accept a neutral portrait as an interaction keyframe.
+
 Use positive concrete language. Describe exactly two separate arms/hands rather than negative-prompt lists. Avoid depending on tiny text. A beach can include rippled golden sand and shells in foreground; explicitly arranged characters at the curved shoreline in middle ground; translucent turquoise shallows, thin foam, deeper ocean and layered clouds in background; landward boardwalk, dunes, umbrellas, and lifeguard tower as stable landmarks. Specify needed people individually rather than trusting 'a lively beach' to generate them.
 
 ## 5. Mandatory master character and image review
@@ -94,6 +100,8 @@ For scene 1 and every later scene, enable Use Consistent Character and choose th
 
 Inspect all candidates. Check anatomy, required people, exact positions, prop ownership/count, correct story moment, depth, landmarks, movement room, and continuity. Reject missing participants, wrong staging, duplicates, merged bodies, distortion, or poor depth. Animation is not a repair method for a defective still. Regenerate with clearer geometry and simpler posing; preserve successful candidates.
 
+Apply an eyeline gate before animating: can the viewer identify whom the protagonist is looking at, and does the body orientation support that relationship? Reject unintended lens-facing stares, a target behind the protagonist's back during interaction, camera props aimed at the viewer instead of the subject, and poses that merely repeat the master reference. Correct perspective and staging in the source image even if the previous animation looked good.
+
 ## 6. Regular visual video prompts
 
 Write a detailed natural shot description that animates the selected image. Include scene ID, actual visible starting state, identity/geography preservation, one principal action with direction/body mechanics/pace, physical cause of prop movement, supporting people's small actions and positions, environmental movement, one motivated camera path, and a clear ending connected to the next shot.
@@ -101,6 +109,8 @@ Write a detailed natural shot description that animates the selected image. Incl
 Continue from the meaningful pose shown. Do not reset to an earlier approach, invent missing people, or chain disconnected events. For everyday stories use calm tracking, gentle arcs, modest push-ins, and steady views. Preserve recognizable landmarks and screen direction.
 
 When maintaining a continuous location, favor fixed views and modest push-ins over arcs. Repeat its fixed landmark positions in every motion prompt and describe the endpoint pose and prop positions needed by the next shot. Keep the camera on the established side of the action axis; a cut alone must not rearrange the set or flip travel direction.
+
+Preserve the established body facing and eyeline through the action. Describe gaze tracking toward the actual participant or prop, including changes in target height. Keep the camera on the interaction side; it must not orbit into a front-facing portrait or turn the protagonist toward the lens. Review completed clips for sustained interaction gaze as well as animation quality.
 
 Example: 'SCENE 03 — Milo is already ankle-deep beside the curved shoreline, facing screen right, with his yellow beach bag on dry sand behind him. A small wave curls around his feet; he lifts one heel, then relaxes with a delighted smile as the water retreats and leaves a wet reflection. The camera slowly tracks parallel to shore, keeping his full silhouette and bag visible. The lifeguard tower stays far left, umbrellas stay behind the dune, and the ocean extends right. Dune grasses sway gently and sunlight glints on the shallows. End with Milo looking at a shell beside his right foot.'
 
