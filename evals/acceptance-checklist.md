@@ -1,42 +1,21 @@
 # Acceptance checklist
 
-- [ ] A visible supported browser was opened or focused first, honoring the user's selected session or preferring the built-in browser.
-- [ ] The production browser remained visible throughout the workflow.
-- [ ] Browser failures triggered inspection of available supported alternatives and existing signed-in sessions before requesting user troubleshooting.
-- [ ] Recoverable failures received 2–3 informed attempts; existing jobs were inspected before retrying submissions to prevent duplicates.
-- [ ] Any unresolved blocker was reported with the exact step, attempted approaches, observed errors, preserved progress, and numbered recovery instructions.
-- [ ] If account confirmation was requested, verified identities were confirmed before generation and that confirmation was retained for the unchanged session.
-- [ ] Routine audio creation and production phases proceeded without per-clip or per-phase approval questions.
-- [ ] Prechecked terms were not assumed to be a new agreement solely from the checkbox; applicable mandatory action-time confirmations were honored for actual agreement acceptance.
-- [ ] The only required user inputs were a topic/story and an aspect ratio.
-- [ ] Beau Whitaker was used unless the user explicitly requested another voice.
-- [ ] The script used short connected lines, each expressing one clear visual beat.
-- [ ] Action/comedy scenes used a decisive readable action and visible consequence, with varied framing and one motivated camera move when useful.
-- [ ] Source images staged the beginning of each action with room for movement; scene transitions preserved screen direction, costume, props, and causal continuity.
-- [ ] Video prompts began with matching scene IDs; essential action finished within the paired audio, with long holds reserved for trimmable excess.
-- [ ] Action playback was checked for actual motion and comic payoff; defective stunts were simplified without replacing successful candidates.
-- [ ] Every line was generated separately in CloneVoice, reached Completed status, and had a measured duration of 3–5 seconds.
-- [ ] Clips used consistent voice, language, delivery, and pace, with natural joins.
-- [ ] Out-of-range lines were revised and regenerated; accepted clips remained intact without cuts or time-stretching.
-- [ ] A scene ledger mapped every narration line to its selected audio, image, video, measured duration, and timeline start/end, distinguishing replacement versions.
-- [ ] Total measured audio duration was checked against the requested runtime when supplied; a one-minute plan used approximately 15 pairs, adjusted to actual durations.
-- [ ] The VideoExpress project used the requested aspect ratio.
-- [ ] Every accepted CloneVoice clip was imported and placed once in scene order on one narration track, beginning at 00:00, with no gaps, overlaps, or superseded candidates.
-- [ ] Every generated image used the selected Image Type (2D by default; 3D for a requested 3D run) with image-prompt enhancement off.
-- [ ] The saved master stickman was loaded through Consistent Character.
-- [ ] A requested 3D version used its own full-body 3D master, with clearly separated arms, hands, legs, and shoes; 2D references were not mixed into its scenes.
-- [ ] Both candidate images were inspected before every scene selection.
-- [ ] Selected images preserved correct anatomy, character identity, prop counts, and continuity.
-- [ ] Every clip used Video Only, Advanced Mode, video-prompt enhancement off, and Manual Video Length.
-- [ ] Each video illustrated its paired narration line and used that audio clip’s measured duration rather than a word-count estimate or equal division of total runtime.
-- [ ] When exact generation durations were unavailable, the shortest supported covering video was generated and only its excess tail was trimmed; essential action finished within the audio duration.
-- [ ] Visual clips were added once each, in story order, on a separate contiguous track beginning at 00:00.
-- [ ] Every video started and ended with its matching audio within one timeline frame; the final endpoints also aligned without accumulated rounding drift.
-- [ ] After fitting every pair, Auto Align Clips was pressed on both tracks and all starts, ends, and joins were checked again for gaps or overlaps.
-- [ ] Audio and video clip counts were equal, with exactly one of each per narration line.
-- [ ] Playback verified every pair and join for matching content, intact speech, and continuous story flow.
-- [ ] Any unavailable timing controls or unresolved synchronization limitations were reported accurately.
-- [ ] The final timeline contained no duplicate scenes or unnecessary tracks.
-- [ ] The project was saved using the story title.
-- [ ] Completion was reported only after the full project was saved and verified, not after a partial set of assets.
-- [ ] Export occurred only after an explicit user request.
+- [ ] Visible supported signed-in browser; alternatives tried before troubleshooting request.
+- [ ] Requested account confirmation completed; mandatory policies honored without routine phase approvals.
+- [ ] Recoverable errors received 2–3 informed attempts; jobs inspected before resubmission.
+- [ ] Ratio/style and character reference consistent.
+- [ ] Connected short narration targeted natural 3–5 seconds.
+- [ ] Images depict actual narrated moment with all required people counted and correctly placed.
+- [ ] Props have explicit ownership, locations and contact points.
+- [ ] 3D depth: layered spatial planes, materials, coherent illumination, contact shadows and haze.
+- [ ] All candidates reviewed for anatomy, staging, people, continuity and movement room.
+- [ ] Image enhancement off; video enhancement off when available without Advanced Mode.
+- [ ] Advanced Mode OFF; Narration Video ON.
+- [ ] Video prompt contains visual motion only, without voice/dialogue/narration/sound/music/lip-sync instructions.
+- [ ] Create Video opens integrated TTS; CloneVoice → System Voice → selected voice used.
+- [ ] Audio created/reviewed inside VideoExpress before each video generation.
+- [ ] Standalone CloneVoice website, narration downloads and library imports not used.
+- [ ] Actual integrated audio/video association inspected; narration intact and synchronized.
+- [ ] Clips added once, in order from 00:00; full playback and joins reviewed.
+- [ ] Auto Align pressed after final fitting on relevant tracks and boundaries rechecked.
+- [ ] Complete project saved/verified; export only if requested; previous successful assets preserved.
