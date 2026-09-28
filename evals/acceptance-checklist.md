@@ -8,6 +8,7 @@
 - [ ] A new dedicated standalone stickman master was generated, reviewed, and saved before any scene images or clips.
 - [ ] Master depicts one full-body character with correct anatomy/costume on a neutral background; its saved asset identity is recorded.
 - [ ] Consistent Character uses that exact master for every scene, including scene 1; selection verified per scene and no scene image substituted as master.
+- [ ] Routine scripts, prompts and intermediate candidates kept internal; topic-driven workflow continued to the saved video without a user click-through process. Script-only delivery requires an explicit request.
 - [ ] Connected short narration targeted natural 3–5 seconds.
 - [ ] Full action sequence planned before story images, with incoming state, new action, outgoing state and next-scene handoff for every beat.
 - [ ] Each beat advances the action or holds a motivated reaction; no unintended repeated approach/reach or neutral pose reset.

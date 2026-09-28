@@ -8,7 +8,7 @@ Generate fresh starting images from the original character master plus the fixed
 
 The current route creates narration directly inside VideoExpress: **Narration Video → Create Video → CloneVoice → System Voice → voice → create audio → generate video**. Advanced Mode stays off. The motion prompt contains visual instructions only; narration belongs in the TTS dialog. Standalone CloneVoice creation, downloads, and narration-library imports are no longer the default.
 
-Copy [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) into a browser-capable agent, sign into VideoExpress, and supply topic and ratio. Routine production continues through review, Auto Align, and saving. Mandatory tool policies and explicit account-confirmation requests remain applicable.
+Copy [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) into a browser-capable agent, sign into VideoExpress, and supply topic and ratio. Routine production continues through review, Auto Align, and saving. Keep scripts, storyboards, prompts and intermediate candidates internal by default; a topic in this workflow should produce the finished saved video without requiring the user to click through each step. Show a script as the final deliverable only for an explicit script-only request. Mandatory tool policies and explicit account-confirmation requests remain applicable.
 
 The current experiment uses polished 3D. Detailed images show the actual narrated moment, all necessary people/props in correct positions, and layered foreground/middle ground/background, coherent light, tactile materials, and contact shadows. Images are not mechanically forced into early setup poses. Short narration beats target natural 3–5 seconds, verified in the integrated workflow.
 
