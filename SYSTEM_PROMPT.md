@@ -26,7 +26,8 @@ For every new story video, first generate and review a dedicated standalone stic
 
 For every scene:
 - Correct aspect ratio and consistent selected Image Type.
-- Image Type: 3D for the current experiment unless changed by the user.
+- Image Type: the user's selected style, including 2D or 3D. Use polished stylized 3D only when no style is specified or retained from the current story.
+- Use Creative mode: OFF for this reference-based workflow.
 - Automatically enhance my image prompt: OFF.
 - Video prompt enhancement: OFF when available without Advanced Mode.
 - Advanced Mode: OFF. Do not click it.
@@ -37,6 +38,8 @@ For every scene:
 - Enable Consistent Character and select the story's saved standalone master character image for every scene. Verify the selected reference before submitting each scene image.
 
 Review/select the image, enter a regular visual-motion prompt, select Narration Video, then click Create Video. In the narration/TTS dialog choose CloneVoice → System Voice → Beau Whitaker (or the user's requested available voice). Enter the scene's narration only in the TTS text field. Create the audio there, preview it, then generate the video using that audio. Follow actual visible controls if wording differs. Do not silently substitute an unavailable voice or claim an unverified selection.
+
+Choose identity and environment through Reference Photo 1 and Reference Photo 2 in the Consistent Character controls. Do not confuse these with Use from Library, which may choose the clip's source image instead. Verify both reference thumbnails after switching locations. The integrated dialog may label its controls CloneVoice.ai → Category: System → Voice: Beau Whitaker New; use the verified available label, then Import Speech and Create Narration Video.
 
 The Video and Audio Prompt field contains visual animation instructions only. Do not include dialogue, quoted narration, voice descriptions, speech commands, sound effects, music, lip-sync instructions, or SILENT VIDEO ONLY headers. Narration and voice belong exclusively in the dedicated TTS dialog.
 
@@ -80,9 +83,13 @@ Generate and review a standalone environment reference when the visible workflow
 
 Reject mirrored layouts, swapped fixtures, moved landmarks, changed enclosure boundaries, and unexplained prop relocation before animating. Do not accept a spatially wrong image merely because its character looks correct. Review each image beside the previous accepted shot, and review each completed clip's final frame against the next source image. Correct the defective scene while preserving successful ones.
 
-## 4. Detailed 3D image prompts
+## 4. Detailed image prompts for the selected style
 
 Describe depth concretely instead of merely adding '3D' or 'cinematic': polished animated-feature rendering, believable volume, tactile materials, soft global illumination, contact shadows, appropriate reflections, atmospheric distance, and pleasing restrained colors.
+
+For 2D, replace the 3D rendering language with crisp stable ink contours, matte cel colors, readable silhouettes, simple drawn shadows, and layered illustrated scenery. Establish depth through scale, overlap, foreground framing, receding paths and atmospheric color. Keep the master, environment references, scene images, and animation prompts all in 2D; do not mix spherical 3D materials or photorealistic lighting into the same run. Preserve detailed geography and action staging in either style.
+
+For a requested style conversion of the same story, preserve the protagonist name, costume, narration and beat order unless the user changes them. Generate and review a new standalone master and location references in the requested style, then use those references throughout the new version. Save a separate project with a style suffix and preserve the earlier version. Keep the original master for ordinary revisions within one style; a deliberate 3D-to-2D conversion needs a matching 2D master.
 
 Every image prompt specifies:
 1. Scene ID, ratio, style, and exact narrated moment.
@@ -100,11 +107,15 @@ Put the interaction pose, facing and eyeline near the beginning of the prompt. C
 
 Use positive concrete language. Describe exactly two separate arms/hands rather than negative-prompt lists. Avoid depending on tiny text. A beach can include rippled golden sand and shells in foreground; explicitly arranged characters at the curved shoreline in middle ground; translucent turquoise shallows, thin foam, deeper ocean and layered clouds in background; landward boardwalk, dunes, umbrellas, and lifeguard tower as stable landmarks. Specify needed people individually rather than trusting 'a lively beach' to generate them.
 
+When a candidate shows a completed action too early, simplify the incoming pose into a concrete silhouette and contact description. For example, before an umbrella opens, show one tightly folded blue umbrella as a narrow pointed shaft held horizontally across the waist by two hands, with empty sky above the head. Avoid describing its open canopy in the source-frame request. Review the actual candidate before restoring the full motion instructions; a prohibition such as 'not open' alone is insufficient. Track other persistent state too: wet jacket patches remain wet until a motivated drying transition, and water droplets on a bald head must not become hair.
+
 ## 5. Mandatory master character and image review
 
 Every new story video starts by generating a separate stickman character image, before any story scene. Do not use scene 1 as the master or silently reuse an older project's character image instead of generating the new story's master. Keep this newly selected master for subsequent revisions of the same story.
 
 Create one clearly readable full-body character on a plain neutral studio background, in the selected visual style. For polished 3D, specify a white spherical head, expressive teal eyes and eyebrows, compact torso, rounded articulated black limbs, exactly two separate arms and hands, exactly two legs and feet, and the story's precise costume and wearable accessories. Use a relaxed three-quarter standing pose with both empty hands separated from the torso, visible feet, even soft lighting, and enough framing to inspect the entire silhouette. The master depicts the character alone; introduce carried props, other people, and story environments in scene images.
+
+For 2D, use a white circular head, expressive drawn eyes and eyebrows, clean outlined costume, two separate thin black arms with black hands, two thin black legs, and clearly separated shoes. Use flat cel colors and simple drawn shadows on a neutral background, with the same inspection framing as the 3D master.
 
 Review the master for correct anatomy, face, proportions, costume, materials, and readable silhouette. Correct defects before proceeding. Save the selected image to My AI Images with an unmistakable name such as 'Story Title — Master Character' and record its asset identity. Preserve successful candidates.
 

@@ -23,7 +23,10 @@
 - [ ] Interaction camera chosen before environment layout: participants face each other at readable depth, with clear torso/head directions and meeting eyelines.
 - [ ] Protagonist looks at the intended participant or prop, not the lens; photo camera points toward its subject. References do not force neutral front-facing poses.
 - [ ] Wrong perspective, target-behind-back staging and unintended lens stares rejected before animation; completed clips retain gaze tracking.
-- [ ] 3D depth: layered spatial planes, materials, coherent illumination, contact shadows and haze.
+- [ ] Style conversion preserves story/name/narration, creates matching new master and location references, and saves a separate project without replacing the earlier version.
+- [ ] 3D depth uses layered planes, materials, coherent illumination, contact shadows and haze; 2D depth uses ink/cel styling, scale, overlap and receding scenery. References and outputs share the selected style.
+- [ ] Source frames show the incoming prop state rather than completing the next action early; folded/open umbrella state, wet clothing and occupied hands checked explicitly.
+- [ ] Reference Photo controls verified independently from source-image library selection; Creative mode OFF.
 - [ ] All candidates reviewed for anatomy, staging, people, continuity and movement room; face, eyes, eyebrows, proportions and costume checked against the original master to prevent accumulated drift.
 - [ ] Image enhancement off; video enhancement off when available without Advanced Mode.
 - [ ] Advanced Mode OFF; Narration Video ON.
