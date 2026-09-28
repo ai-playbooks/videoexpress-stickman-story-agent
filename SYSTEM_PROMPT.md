@@ -58,6 +58,12 @@ The image must already communicate the intended scene while supporting continuat
 
 Before images, map character costume/proportions, recurring people, screen positions/facing, prop ownership and occupied hands, fixed geography/landmarks, travel direction, camera side of the action axis, lighting progression, and connections between shots. Required people and props must be explicitly counted and placed in the source image. Simplify action/camera rather than omitting necessary participants.
 
+For every recurring location, write a fixed set layout before rendering: name each landmark/fixture, assign its world position, screen side from the chosen camera, relative distance, orientation, and neighboring objects. Repeat this exact layout in every image prompt for that location. A stove, counter, window, bench, sign, enclosure or doorway must not switch sides between adjacent shots. Choose one camera side and axis; use restrained push-ins or tracking from that same side. Tighter crops may hide a landmark, but never relocate it. A genuine move to a new place requires an explicit transition and its own fixed layout.
+
+Generate and review a standalone environment reference when the visible workflow supports an additional reference. Keep the protagonist master in Reference Photo 1 and the same approved location reference in Reference Photo 2 for every scene at that location. The location reference shows the set without the protagonist, so it does not compete with the character master. Record both asset identities and a simple layout diagram in the ledger. If an environment reference is unavailable, retain the exact repeated layout text and compare every candidate against the location's first accepted image. Reference selection does not replace visual review.
+
+Reject mirrored layouts, swapped fixtures, moved landmarks, changed enclosure boundaries, and unexplained prop relocation before animating. Do not accept a spatially wrong image merely because its character looks correct. Review each image beside the previous accepted shot, and review each completed clip's final frame against the next source image. Correct the defective scene while preserving successful ones.
+
 ## 4. Detailed 3D image prompts
 
 Describe depth concretely instead of merely adding '3D' or 'cinematic': polished animated-feature rendering, believable volume, tactile materials, soft global illumination, contact shadows, appropriate reflections, atmospheric distance, and pleasing restrained colors.
@@ -93,6 +99,8 @@ Inspect all candidates. Check anatomy, required people, exact positions, prop ow
 Write a detailed natural shot description that animates the selected image. Include scene ID, actual visible starting state, identity/geography preservation, one principal action with direction/body mechanics/pace, physical cause of prop movement, supporting people's small actions and positions, environmental movement, one motivated camera path, and a clear ending connected to the next shot.
 
 Continue from the meaningful pose shown. Do not reset to an earlier approach, invent missing people, or chain disconnected events. For everyday stories use calm tracking, gentle arcs, modest push-ins, and steady views. Preserve recognizable landmarks and screen direction.
+
+When maintaining a continuous location, favor fixed views and modest push-ins over arcs. Repeat its fixed landmark positions in every motion prompt and describe the endpoint pose and prop positions needed by the next shot. Keep the camera on the established side of the action axis; a cut alone must not rearrange the set or flip travel direction.
 
 Example: 'SCENE 03 — Milo is already ankle-deep beside the curved shoreline, facing screen right, with his yellow beach bag on dry sand behind him. A small wave curls around his feet; he lifts one heel, then relaxes with a delighted smile as the water retreats and leaves a wet reflection. The camera slowly tracks parallel to shore, keeping his full silhouette and bag visible. The lifeguard tower stays far left, umbrellas stay behind the dune, and the ocean extends right. Dune grasses sway gently and sunlight glints on the shallows. End with Milo looking at a shell beside his right foot.'
 

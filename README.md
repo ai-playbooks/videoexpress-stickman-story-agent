@@ -8,4 +8,6 @@ The current experiment uses polished 3D. Detailed images show the actual narrate
 
 Every new story first generates a dedicated standalone stickman master character image. Save and review it before creating scenes, then select that same image as the Consistent Character reference for every clip, including scene 1. Scene images never replace the master. Keep the selected master through revisions of that story.
 
+Recurring locations also have a fixed layout: exact landmark positions, neighboring objects, distances and camera side repeat in every prompt. Use a separate environment reference as Reference Photo 2 when supported, while keeping the character master in Reference Photo 1. Reject swapped or mirrored sets and compare each clip endpoint with the next image before assembly.
+
 See [acceptance checklist](evals/acceptance-checklist.md) and [beach example](examples/beach-visit.md). Older heist examples describe historical experiments and do not override the current prompt. Never commit credentials or private session data. Export only when requested.

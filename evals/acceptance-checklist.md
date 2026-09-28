@@ -10,6 +10,9 @@
 - [ ] Connected short narration targeted natural 3–5 seconds.
 - [ ] Images depict actual narrated moment with all required people counted and correctly placed.
 - [ ] Props have explicit ownership, locations and contact points.
+- [ ] Each recurring location has a fixed layout and camera side, repeated in all its image and motion prompts.
+- [ ] Where supported, the same standalone environment reference is selected as Reference Photo 2; protagonist master stays in Reference Photo 1.
+- [ ] Adjacent images and clip endpoints reviewed for mirrored layouts, swapped fixtures and unexplained prop/landmark movement; defective scenes corrected.
 - [ ] 3D depth: layered spatial planes, materials, coherent illumination, contact shadows and haze.
 - [ ] All candidates reviewed for anatomy, staging, people, continuity and movement room.
 - [ ] Image enhancement off; video enhancement off when available without Advanced Mode.
