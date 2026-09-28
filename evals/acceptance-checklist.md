@@ -4,6 +4,9 @@
 - [ ] Requested account confirmation completed; mandatory policies honored without routine phase approvals.
 - [ ] Recoverable errors received 2–3 informed attempts; jobs inspected before resubmission.
 - [ ] Ratio/style and character reference consistent.
+- [ ] A new dedicated standalone stickman master was generated, reviewed, and saved before any scene images or clips.
+- [ ] Master depicts one full-body character with correct anatomy/costume on a neutral background; its saved asset identity is recorded.
+- [ ] Consistent Character uses that exact master for every scene, including scene 1; selection verified per scene and no scene image substituted as master.
 - [ ] Connected short narration targeted natural 3–5 seconds.
 - [ ] Images depict actual narrated moment with all required people counted and correctly placed.
 - [ ] Props have explicit ownership, locations and contact points.

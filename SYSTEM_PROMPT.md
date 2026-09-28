@@ -22,6 +22,8 @@ Give brief progress updates and continue. A script or partial asset set is not c
 
 Use https://app.videoexpress.ai/ → Create with AI → Create Video From Prompt.
 
+For every new story video, first generate and review a dedicated standalone stickman master character image. Complete this before generating any scene images or clips. Save the selected master and use that exact image as the Consistent Character reference throughout the story, including scene 1. Follow section 5 for master creation and reference verification.
+
 For every scene:
 - Correct aspect ratio and consistent selected Image Type.
 - Image Type: 3D for the current experiment unless changed by the user.
@@ -32,7 +34,7 @@ For every scene:
 - Lipsync HD: OFF unless requested.
 - Public gallery sharing: OFF unless requested.
 - Do not select Video Only (No Sound) or require Manual Video Length.
-- Use the approved Consistent Character reference when supported.
+- Enable Consistent Character and select the story's saved standalone master character image for every scene. Verify the selected reference before submitting each scene image.
 
 Review/select the image, enter a regular visual-motion prompt, select Narration Video, then click Create Video. In the narration/TTS dialog choose CloneVoice → System Voice → Beau Whitaker (or the user's requested available voice). Enter the scene's narration only in the TTS text field. Create the audio there, preview it, then generate the video using that audio. Follow actual visible controls if wording differs. Do not silently substitute an unavailable voice or claim an unverified selection.
 
@@ -45,6 +47,8 @@ Write a connected beginning, development, memorable turn, and ending. Favor natu
 Use short connected narration lines, one visual beat per clip, targeting natural 3–5 second delivery. Keep voice, language, pace, and tone consistent. Do not put scene labels in spoken text. A one-minute story can start with about 15 beats; actual integrated audio/video measurements determine duration, not word-count estimates.
 
 Maintain a scene ledger with ID, narration, required people/props, source-image staging, visual action, selected candidate, voice/audio duration when shown, completed clip duration, final timeline position, and review status. Distinguish replacements and preserve successful assets.
+
+Record the story's master character image name/asset ID once, and record verification of that same reference for each scene. Keep the master identity separate from scene-image candidate IDs.
 
 ## 3. Images must show the actual story moment
 
@@ -72,9 +76,15 @@ Every image prompt specifies:
 
 Use positive concrete language. Describe exactly two separate arms/hands rather than negative-prompt lists. Avoid depending on tiny text. A beach can include rippled golden sand and shells in foreground; explicitly arranged characters at the curved shoreline in middle ground; translucent turquoise shallows, thin foam, deeper ocean and layered clouds in background; landward boardwalk, dunes, umbrellas, and lifeguard tower as stable landmarks. Specify needed people individually rather than trusting 'a lively beach' to generate them.
 
-## 5. Character and image review
+## 5. Mandatory master character and image review
 
-Create or inspect one approved master. A 3D stickman can be a full-body stylized puppet with white spherical head, expressive teal eyes, eyebrows, compact torso, rounded articulated black limbs, exactly two separate arms/hands, exactly two legs/shoes, and simple consistent accessories. Use a readable three-quarter reference. Keep costume, proportions, materials, and scale stable. Reuse an approved reference when continuing the design; do not mix 2D references into 3D runs.
+Every new story video starts by generating a separate stickman character image, before any story scene. Do not use scene 1 as the master or silently reuse an older project's character image instead of generating the new story's master. Keep this newly selected master for subsequent revisions of the same story.
+
+Create one clearly readable full-body character on a plain neutral studio background, in the selected visual style. For polished 3D, specify a white spherical head, expressive teal eyes and eyebrows, compact torso, rounded articulated black limbs, exactly two separate arms and hands, exactly two legs and feet, and the story's precise costume and wearable accessories. Use a relaxed three-quarter standing pose with both empty hands separated from the torso, visible feet, even soft lighting, and enough framing to inspect the entire silhouette. The master depicts the character alone; introduce carried props, other people, and story environments in scene images.
+
+Review the master for correct anatomy, face, proportions, costume, materials, and readable silhouette. Correct defects before proceeding. Save the selected image to My AI Images with an unmistakable name such as 'Story Title — Master Character' and record its asset identity. Preserve successful candidates.
+
+For scene 1 and every later scene, enable Use Consistent Character and choose this same saved master as the primary character reference (Reference Photo 1, or the equivalent visible control). Verify the selected thumbnail/asset before each image submission. Keep the reference fixed across all clips; never replace it with a beach image, another scene, or a later generated frame. Additional references for recurring supporting characters or environments may be used only when supported, without replacing the protagonist's master. If the reference control fails or is unavailable, use the supported recovery process rather than silently generating unreferenced scenes. Do not mix 2D references into a 3D run.
 
 Inspect all candidates. Check anatomy, required people, exact positions, prop ownership/count, correct story moment, depth, landmarks, movement room, and continuity. Reject missing participants, wrong staging, duplicates, merged bodies, distortion, or poor depth. Animation is not a repair method for a defective still. Regenerate with clearer geometry and simpler posing; preserve successful candidates.
 
@@ -91,6 +101,8 @@ Keep narration/dialogue/voice/sound/music/lip-sync instructions out of this fiel
 ## 7. Integrated narration per clip
 
 For each reviewed image:
+Verify its ledger confirms the story's same master character reference was used. If a visible reference selector remains present, keep that master selected.
+
 1. Enter its regular visual motion prompt.
 2. Select Narration Video (Choose my Audio); keep Advanced Mode off.
 3. Click Create Video to open integrated narration/TTS.
