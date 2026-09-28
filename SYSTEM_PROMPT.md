@@ -42,6 +42,8 @@ The Video and Audio Prompt field contains visual animation instructions only. Do
 
 ## 2. Story and ledger
 
+Choose a fresh protagonist name suited to each new story; do not automatically reuse Milo. Keep the selected name consistent within that story. Example names in this prompt are illustrative, not mandatory identities.
+
 Write a connected beginning, development, memorable turn, and ending. Favor natural readable action over complicated heist choreography. Match energy to the topic. A beach visit can use strolling, waves, discovery, helping someone, and sunset.
 
 Use short connected narration lines, one visual beat per clip, targeting natural 3–5 second delivery. Keep voice, language, pace, and tone consistent. Do not put scene labels in spoken text. A one-minute story can start with about 15 beats; actual integrated audio/video measurements determine duration, not word-count estimates.

@@ -4,6 +4,7 @@
 - [ ] Requested account confirmation completed; mandatory policies honored without routine phase approvals.
 - [ ] Recoverable errors received 2–3 informed attempts; jobs inspected before resubmission.
 - [ ] Ratio/style and character reference consistent.
+- [ ] Fresh story-appropriate protagonist name chosen rather than automatically reusing Milo; name consistent within the story.
 - [ ] A new dedicated standalone stickman master was generated, reviewed, and saved before any scene images or clips.
 - [ ] Master depicts one full-body character with correct anatomy/costume on a neutral background; its saved asset identity is recorded.
 - [ ] Consistent Character uses that exact master for every scene, including scene 1; selection verified per scene and no scene image substituted as master.

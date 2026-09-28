@@ -1,5 +1,7 @@
 # VideoExpress Narrated Story Agent
 
+Choose a fresh protagonist name for each new story rather than automatically reusing Milo. Keep the name and dedicated character master consistent throughout that story.
+
 The current route creates narration directly inside VideoExpress: **Narration Video → Create Video → CloneVoice → System Voice → voice → create audio → generate video**. Advanced Mode stays off. The motion prompt contains visual instructions only; narration belongs in the TTS dialog. Standalone CloneVoice creation, downloads, and narration-library imports are no longer the default.
 
 Copy [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) into a browser-capable agent, sign into VideoExpress, and supply topic and ratio. Routine production continues through review, Auto Align, and saving. Mandatory tool policies and explicit account-confirmation requests remain applicable.
