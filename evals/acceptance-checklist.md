@@ -12,7 +12,7 @@
 - [ ] Full action sequence planned before story images, with incoming state, new action, outgoing state and next-scene handoff for every beat.
 - [ ] Each beat advances the action or holds a motivated reaction; no unintended repeated approach/reach or neutral pose reset.
 - [ ] Connected scenes generated sequentially: previous actual accepted endpoint inspected before finalizing the next source image.
-- [ ] Where supported, continuous action reuses the reviewed Save Last Frame image as the next animation source; the character master remains a separate fixed reference.
+- [ ] Fresh starting images use the original character master plus the fixed room reference; preceding endpoints inform physical-state descriptions rather than being reused as sources by default.
 - [ ] Each source frame carries the previous endpoint's position, posture, gaze, hand/prop contact and action stage; framing changes have a story reason.
 - [ ] Images depict actual narrated moment with all required people counted and correctly placed.
 - [ ] Props have explicit ownership, locations and contact points.
@@ -23,7 +23,7 @@
 - [ ] Protagonist looks at the intended participant or prop, not the lens; photo camera points toward its subject. References do not force neutral front-facing poses.
 - [ ] Wrong perspective, target-behind-back staging and unintended lens stares rejected before animation; completed clips retain gaze tracking.
 - [ ] 3D depth: layered spatial planes, materials, coherent illumination, contact shadows and haze.
-- [ ] All candidates reviewed for anatomy, staging, people, continuity and movement room.
+- [ ] All candidates reviewed for anatomy, staging, people, continuity and movement room; face, eyes, eyebrows, proportions and costume checked against the original master to prevent accumulated drift.
 - [ ] Image enhancement off; video enhancement off when available without Advanced Mode.
 - [ ] Advanced Mode OFF; Narration Video ON.
 - [ ] Video prompt contains visual motion only, without voice/dialogue/narration/sound/music/lip-sync instructions.
