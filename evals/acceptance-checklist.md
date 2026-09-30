@@ -41,6 +41,8 @@
 - [ ] Source frames show the incoming prop state rather than completing the next action early; folded/open umbrella state, wet clothing and occupied hands checked explicitly.
 - [ ] Reference Photo controls verified independently from source-image library selection; Creative mode OFF.
 - [ ] All candidates reviewed for anatomy, staging, people, continuity and movement room; face, eyes, eyebrows, proportions and costume checked against the original master to prevent accumulated drift.
+- [ ] Every source image was enlarged and inspected inside the frame; each visible stickman has one head/torso, exactly two arms/hands and two legs/feet, with no hidden, fused, detached, malformed or extra limbs.
+- [ ] Every story prop was inventoried by exact required count; foreground, background, hands, clothing and scenery contain no duplicate maps, bags, phones, plants, fragments or unexplained lookalike objects.
 - [ ] Image enhancement off; video enhancement off when available without Advanced Mode.
 - [ ] Advanced Mode OFF; Narration Video ON.
 - [ ] Video prompt contains visual motion only, without voice/dialogue/narration/sound/music/lip-sync instructions.
@@ -50,6 +52,8 @@
 - [ ] Standalone CloneVoice website, narration downloads and library imports not used.
 - [ ] Actual integrated audio/video association inspected; narration intact and synchronized.
 - [ ] Completed job status was not treated as quality proof; every generated video, including rejected candidates, was opened and inspected across its start, meaningful action, narration/audio, and endpoint.
+- [ ] Each completed clip was paused near 0%, 25%, 50%, 75%, 100%, and at its strongest motion/overlap; anatomy and prop counts passed at every checkpoint, including defects visible for only one reviewed frame.
+- [ ] Rejected visual artifacts record the exact checkpoint and defect; replacements use simpler pose, clearer separation, reduced clutter or simpler motion instead of accepting a brief error.
 - [ ] Each generated video's pass/reject result and concrete rejection reason were recorded before any replacement was submitted.
 - [ ] Same-scene failures stayed within the bounded retry/reframe limit; successful assets were preserved and unknown jobs were checked before resubmission.
 - [ ] Clips added once, in order from 00:00; full playback and joins reviewed.
