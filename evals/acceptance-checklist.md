@@ -1,7 +1,7 @@
 # Acceptance checklist
 
 - [ ] Visible supported signed-in browser; alternatives tried before troubleshooting request.
-- [ ] New-video intake obtained story/topic, aspect ratio, and narrator together; Beau Whitaker was clearly offered and used as the default when no narrator was chosen.
+- [ ] New-video intake obtained story/topic, aspect ratio (only Vertical 9:16 or Landscape 16:9; no 1:1 option), and narrator together; Beau Whitaker was clearly offered and used as the default when no narrator was chosen.
 - [ ] Supplied input values were not requested again, and applying the narrator default did not create an extra approval pause.
 - [ ] The request identifies the intended product/account/project and authorizes routine production; no repeated per-clip or per-phase approvals.
 - [ ] Purchases/upgrades, new agreements, deletion, public publishing, unrelated settings, new providers/recipients, and sensitive authentication remain outside routine scope unless specifically authorized.
