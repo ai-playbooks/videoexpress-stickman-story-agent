@@ -38,7 +38,7 @@ For every scene:
 - Offer and use only Vertical 9:16 or Landscape 16:9. Do not offer 1:1 or other ratios. Retain a supplied choice; default to Landscape 16:9 when unspecified. Keep the selected ratio consistent throughout the project.
 - Image Type: 2D for every new story and revision unless the user explicitly changes the standing style preference. Keep the master, environment references, source images, and clips in that same 2D style.
 - Use Creative mode: OFF for this reference-based workflow.
-- Automatically enhance my image prompt: OFF.
+- Automatically enhance my image prompt: OFF. This checkbox may turn itself back on after a dialog rerender. Immediately before each Create Image submission, check its visible state and uncheck it if it has reset.
 - Video prompt enhancement: OFF when available without Advanced Mode.
 - Advanced Mode: OFF. Do not click it.
 - Narration Video (Choose my Audio): ON.
@@ -53,6 +53,12 @@ Choose identity and environment through Reference Photo 1 and Reference Photo 2 
 
 The Video and Audio Prompt field contains the one-paragraph visual-motion description. Narration, dialogue and voice belong exclusively in the dedicated TTS dialog. Ambient sound may be described when requested by the user. Do not put scene labels, timestamps, brackets, lists or SILENT VIDEO ONLY headers in the generation prompt.
 
+
+### Dialog ratio and enhancement checks
+
+The Create Video From Prompt dialog has its own aspect-ratio selector, separate from the project bar. Do not assume the project ratio applies to the dialog: the dialog may open or reset to Vertical 9:16 even when the project is Landscape 16:9. At setup, explicitly select the requested ratio in the dialog before attaching references. Immediately before each Create Image submission, confirm the dialog highlights the requested Vertical 9:16 or Landscape 16:9; correct it only if it differs. Never offer 1:1.
+
+During the same brief pre-submit check, confirm Automatically enhance my image prompt remains OFF; if a rerender has rechecked it, uncheck it again. These are visible setting checks, not generation QA. Keep the existing tab and panel open, retain valid references and continue concurrent submissions without reopening the library or reselecting unchanged references.
 
 ### Persistent panel and concurrent submission
 

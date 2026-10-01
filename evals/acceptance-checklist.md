@@ -59,3 +59,6 @@
 - [ ] Character reference and settings reused; environment changed only with location, and reset controls restored only when needed.
 - [ ] Next scene prepared immediately after video submission while prior jobs rendered within the visible concurrency limit.
 - [ ] No routine library visits or per-generation speech/video QA; assets collected and reviewed in one final pass, with limitations reported.
+
+- [ ] Generation dialog ratio checked independently from project ratio immediately before each Create Image submission; requested 9:16 or 16:9 restored if reset.
+- [ ] Image-prompt enhancement checked OFF immediately before each Create Image submission and unchecked if a rerender re-enabled it; panel and valid references retained.
