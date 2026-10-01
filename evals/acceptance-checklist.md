@@ -1,7 +1,7 @@
 # Acceptance checklist
 
 - [ ] Visible supported signed-in browser; alternatives tried before troubleshooting request.
-- [ ] New-video intake obtained story/topic, aspect ratio (only Vertical 9:16 or Landscape 16:9; no 1:1 option), and narrator together; Beau Whitaker was clearly offered and used as the default when no narrator was chosen.
+- [ ] Topic obtained once; supplied preferences retained, missing ratio/voice defaulted to 16:9/Beau Whitaker without another question; any offered ratio choices were only 9:16 or 16:9.
 - [ ] Supplied input values were not requested again, and applying the narrator default did not create an extra approval pause.
 - [ ] The request identifies the intended product/account/project and authorizes routine production; no repeated per-clip or per-phase approvals.
 - [ ] Purchases/upgrades, new agreements, deletion, public publishing, unrelated settings, new providers/recipients, and sensitive authentication remain outside routine scope unless specifically authorized.
@@ -20,8 +20,8 @@
 - [ ] Master depicts one full-body character with correct anatomy/costume on a neutral background; its saved asset identity is recorded.
 - [ ] Consistent Character uses that exact master for every scene, including scene 1; selection retained across scenes and restored only after a visible reset; no scene image substituted as master.
 - [ ] Routine scripts, prompts and intermediate candidates kept internal; topic-driven workflow continued to the saved video without a user click-through process. Script-only delivery requires an explicit request.
-- [ ] Connected short narration targeted natural 3–5 seconds; enough meaningful beats planned for a default 55–65 second finished runtime.
-- [ ] Actual clip durations accumulated in the ledger; assembled timeline measured after Auto Align and confirmed at 55–65 seconds unless the user requested another duration.
+- [ ] Connected short narration targeted natural 3–5 seconds; enough meaningful beats planned for a complete story and any explicit user duration, without a fixed runtime requirement.
+- [ ] Actual clip durations accumulated in the ledger; assembled timeline measured after Auto Align and reported accurately and checked against an explicit requested duration only.
 - [ ] Full action sequence planned before story images, with incoming state, new action, outgoing state and next-scene handoff for every beat.
 - [ ] Each beat advances the action or holds a motivated reaction; no unintended repeated approach/reach or neutral pose reset.
 - [ ] Images depict actual narrated moment with all required people, animals and plants counted, identified and correctly placed.
@@ -64,3 +64,6 @@
 - [ ] Image-prompt enhancement checked OFF immediately before each Create Image submission and unchecked if a rerender re-enabled it; panel and valid references retained.
 
 - [ ] Each completed video matched to its scene, right-clicked in My AI Videos and added using Add to Timeline in planned story order; one new clip verified per action and uncertain actions checked before repeating.
+
+- [ ] Decision gates applied without routine mid-production questions; defaults used for missing preferences and required pauses explained specifically.
+- [ ] Final export completed and verified unless user explicitly requested no export/project-only; no upgrade or public publishing performed.
