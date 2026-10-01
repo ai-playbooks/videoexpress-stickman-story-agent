@@ -18,7 +18,7 @@
 - [ ] Recurring supporting stickmen have distinct appearances and retain their identities across scenes and joins.
 - [ ] A new dedicated standalone stickman master was generated, reviewed, and saved before any scene images or clips.
 - [ ] Master depicts one full-body character with correct anatomy/costume on a neutral background; its saved asset identity is recorded.
-- [ ] Consistent Character uses that exact master for every scene, including scene 1; selection verified per scene and no scene image substituted as master.
+- [ ] Consistent Character uses that exact master for every scene, including scene 1; selection retained across scenes and restored only after a visible reset; no scene image substituted as master.
 - [ ] Routine scripts, prompts and intermediate candidates kept internal; topic-driven workflow continued to the saved video without a user click-through process. Script-only delivery requires an explicit request.
 - [ ] Connected short narration targeted natural 3–5 seconds; enough meaningful beats planned for a default 55–65 second finished runtime.
 - [ ] Actual clip durations accumulated in the ledger; assembled timeline measured after Auto Align and confirmed at 55–65 seconds unless the user requested another duration.
@@ -35,17 +35,17 @@
 - [ ] Source frames show the incoming prop state rather than completing the next action early; folded/open umbrella state, wet clothing and occupied hands checked explicitly.
 - [ ] Reference Photo controls verified independently from source-image library selection; Creative mode OFF.
 - [ ] All candidates reviewed for anatomy, staging, people, continuity and movement room; face, eyes, eyebrows, proportions and costume checked against the original master to prevent accumulated drift.
-- [ ] Every source image was enlarged and inspected inside the frame; each visible stickman has one head/torso, exactly two arms/hands and two legs/feet, with no hidden, fused, detached, malformed or extra limbs.
+- [ ] During the final image QA pass, when performed, source images were inspected inside the frame; each visible stickman has one head/torso, exactly two arms/hands and two legs/feet, with no hidden, fused, detached, malformed or extra limbs.
 - [ ] Every story prop was inventoried by exact required count; foreground, background, hands, clothing and scenery contain no duplicate maps, bags, phones, plants, fragments or unexplained lookalike objects.
 - [ ] Image enhancement off; video enhancement off when available without Advanced Mode.
 - [ ] Advanced Mode OFF; Narration Video ON.
 - [ ] Create Video opens integrated TTS; CloneVoice → System Voice → selected voice used.
 - [ ] System voice used by default; any requested cloned voice has established speaker permission for the intended use.
-- [ ] Audio created/reviewed inside VideoExpress before each video generation.
+- [ ] Audio created inside VideoExpress before each video submission; routine speech listening deferred to the final pass.
 - [ ] Standalone CloneVoice website, narration downloads and library imports not used.
 - [ ] Auto Align pressed after final fitting on relevant tracks and boundaries rechecked.
 - [ ] Correct project save visibly verified; any claimed export exists and opens; export status reported; previous successful assets preserved.
-- [ ] Fast production mode used: careful enlarged source-image review followed by one narrated video generation per accepted image.
+- [ ] Fast production mode used: one brief source-image check followed by integrated audio creation and one video submission; detailed QA deferred to the end.
 - [ ] Adventure scenes plan meaningful character action; camera movement, waves and breathing do not substitute for travel or interaction.
 - [ ] Source images use action-ready poses and planned handoffs; master standing pose does not dictate scene poses.
 - [ ] Motion prompt is one present-tense paragraph, shot-led, with Initially/then/finally; no scene IDs, timestamps, brackets or lists.
@@ -54,3 +54,8 @@
 - [ ] Completed asset IDs and actual durations recorded; clips added once in story order and timing boundaries verified.
 - [ ] Narration remains in the integrated TTS field; requested ambient sound may appear in the motion paragraph.
 - [ ] Final report distinguishes reviewed source images from unverified detailed motion, continuity and audio quality.
+
+- [ ] Same browser tab and generation panel retained between submissions; only required subdialogs closed.
+- [ ] Character reference and settings reused; environment changed only with location, and reset controls restored only when needed.
+- [ ] Next scene prepared immediately after video submission while prior jobs rendered within the visible concurrency limit.
+- [ ] No routine library visits or per-generation speech/video QA; assets collected and reviewed in one final pass, with limitations reported.
