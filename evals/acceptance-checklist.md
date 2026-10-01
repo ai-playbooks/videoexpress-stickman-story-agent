@@ -24,18 +24,12 @@
 - [ ] Actual clip durations accumulated in the ledger; assembled timeline measured after Auto Align and confirmed at 55–65 seconds unless the user requested another duration.
 - [ ] Full action sequence planned before story images, with incoming state, new action, outgoing state and next-scene handoff for every beat.
 - [ ] Each beat advances the action or holds a motivated reaction; no unintended repeated approach/reach or neutral pose reset.
-- [ ] Connected scenes generated sequentially: previous actual accepted endpoint inspected before finalizing the next source image.
-- [ ] Fresh starting images use the original character master plus the fixed room reference; preceding endpoints inform physical-state descriptions rather than being reused as sources by default.
-- [ ] Each source frame carries the previous endpoint's position, posture, gaze, hand/prop contact and action stage; framing changes have a story reason.
 - [ ] Images depict actual narrated moment with all required people, animals and plants counted, identified and correctly placed.
-- [ ] Recurring subject identities, counts and locations remain consistent in every source image, clip start/end and join; a single story plant remains one plant rooted in the same spot through its growth.
 - [ ] Props have explicit ownership, locations and contact points.
 - [ ] Each recurring location has a fixed layout and camera side, repeated in all its image and motion prompts.
 - [ ] Where supported, the same standalone environment reference is selected as Reference Photo 2; protagonist master stays in Reference Photo 1.
-- [ ] Adjacent images and clip endpoints reviewed for mirrored layouts, swapped fixtures and unexplained prop/landmark movement; defective scenes corrected.
 - [ ] Interaction camera chosen before environment layout: participants face each other at readable depth, with clear torso/head directions and meeting eyelines.
 - [ ] Protagonist looks at the intended participant or prop, not the lens; photo camera points toward its subject. References do not force neutral front-facing poses.
-- [ ] Wrong perspective, target-behind-back staging and unintended lens stares rejected before animation; completed clips retain gaze tracking.
 - [ ] Style conversion preserves story/name/narration, creates matching new master and location references, and saves a separate project without replacing the earlier version.
 - [ ] 2D depth uses ink/cel styling, scale, overlap and receding scenery. References and outputs share the selected style; a user-requested style override remains consistent throughout its run.
 - [ ] Source frames show the incoming prop state rather than completing the next action early; folded/open umbrella state, wet clothing and occupied hands checked explicitly.
@@ -45,18 +39,18 @@
 - [ ] Every story prop was inventoried by exact required count; foreground, background, hands, clothing and scenery contain no duplicate maps, bags, phones, plants, fragments or unexplained lookalike objects.
 - [ ] Image enhancement off; video enhancement off when available without Advanced Mode.
 - [ ] Advanced Mode OFF; Narration Video ON.
-- [ ] Video prompt contains visual motion only, without voice/dialogue/narration/sound/music/lip-sync instructions.
 - [ ] Create Video opens integrated TTS; CloneVoice → System Voice → selected voice used.
 - [ ] System voice used by default; any requested cloned voice has established speaker permission for the intended use.
 - [ ] Audio created/reviewed inside VideoExpress before each video generation.
 - [ ] Standalone CloneVoice website, narration downloads and library imports not used.
-- [ ] Actual integrated audio/video association inspected; narration intact and synchronized.
-- [ ] Completed job status was not treated as quality proof; every generated video, including rejected candidates, was opened and inspected across its start, meaningful action, narration/audio, and endpoint.
-- [ ] Each completed clip was paused near 0%, 25%, 50%, 75%, 100%, and at its strongest motion/overlap; anatomy and prop counts passed at every checkpoint, including defects visible for only one reviewed frame.
-- [ ] Rejected visual artifacts record the exact checkpoint and defect; replacements use simpler pose, clearer separation, reduced clutter or simpler motion instead of accepting a brief error.
-- [ ] Each generated video's pass/reject result and concrete rejection reason were recorded before any replacement was submitted.
-- [ ] Same-scene failures stayed within the bounded retry/reframe limit; successful assets were preserved and unknown jobs were checked before resubmission.
-- [ ] Clips added once, in order from 00:00; full playback and joins reviewed.
-- [ ] Every endpoint-to-start pair checked for action continuity; repeated cycles and pose resets corrected. Auto Align not treated as a visual-continuity fix.
 - [ ] Auto Align pressed after final fitting on relevant tracks and boundaries rechecked.
 - [ ] Correct project save visibly verified; any claimed export exists and opens; export status reported; previous successful assets preserved.
+- [ ] Fast production mode used: careful enlarged source-image review followed by one narrated video generation per accepted image.
+- [ ] Adventure scenes plan meaningful character action; camera movement, waves and breathing do not substitute for travel or interaction.
+- [ ] Source images use action-ready poses and planned handoffs; master standing pose does not dictate scene poses.
+- [ ] Motion prompt is one present-tense paragraph, shot-led, with Initially/then/finally; no scene IDs, timestamps, brackets or lists.
+- [ ] Detailed video scrubbing, five-checkpoint anatomy checks, mandatory endpoint/join playback and minor motion retries were not required.
+- [ ] Video retries occurred only for confirmed generation failure or clearly unusable output, with at most three total attempts and no duplicate unknown jobs.
+- [ ] Completed asset IDs and actual durations recorded; clips added once in story order and timing boundaries verified.
+- [ ] Narration remains in the integrated TTS field; requested ambient sound may appear in the motion paragraph.
+- [ ] Final report distinguishes reviewed source images from unverified detailed motion, continuity and audio quality.
