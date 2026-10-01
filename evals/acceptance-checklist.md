@@ -62,3 +62,5 @@
 
 - [ ] Generation dialog ratio checked independently from project ratio immediately before each Create Image submission; requested 9:16 or 16:9 restored if reset.
 - [ ] Image-prompt enhancement checked OFF immediately before each Create Image submission and unchecked if a rerender re-enabled it; panel and valid references retained.
+
+- [ ] Each completed video matched to its scene, right-clicked in My AI Videos and added using Add to Timeline in planned story order; one new clip verified per action and uncertain actions checked before repeating.

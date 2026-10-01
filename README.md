@@ -28,3 +28,6 @@ See the [acceptance checklist](evals/acceptance-checklist.md), [example request]
 
 
 Before each Create Image submission, check the generation dialog's own ratio selector independently of the project bar and confirm image-prompt enhancement is OFF. The dialog ratio may reset to 9:16 and enhancement may recheck after a rerender. Correct only reset settings while retaining the open panel and valid references.
+
+
+For final assembly, open Media Library → My Media → My AI Videos. In planned scene order, right-click each completed video's thumbnail/card and choose Add to Timeline. Verify one new clip appears before proceeding, prevent duplicates, retain integrated narration, then Auto Align and save.
